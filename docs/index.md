@@ -103,6 +103,7 @@ Quand on souhaite cloner un projet qui ne nous appartient pas, il est préférab
 
     Sur chaque machine :
 
+    - Je veux jouer à Outer Wilds maintenant
     - clonez ce repo
     - ouvrez l’intégralité du projet dans un éditeur de texte
     - (remarquez le dossier caché `.git`)
