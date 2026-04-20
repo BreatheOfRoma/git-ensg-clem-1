@@ -10,7 +10,11 @@
 - de partager des fichiers de manière publique ou privée
 - et bien plus encore
 - COUCOU 
+
+Test branche Mathéo 
+
 -Salut
+
 
 **Git est un logiciel libre et open-source, qui ne repose pas sur un serveur centralisé**. Chaque personne d’un projet a donc sa propre copie du projet en local et peut être la référence pour les autres. Malgré tout, il est très fréquent d’utiliser un serveur intermédiaire comme Gitlab ou Github, qui sont des services d’hébergement de fichiers, et qui rendent le partage plus simple.
 
@@ -108,8 +112,6 @@ Quand on souhaite cloner un projet qui ne nous appartient pas, il est préférab
     - installez mkdocs avec `pip install mkdocs`
     - dans le dossier du projet, lancez la commande `mkdocs serve`
     - dans un navigateur, allez à l’URL `http://locahost:8000`
-    - LIGNE AJOUTEE PAR CLEMENT
-
 
 ## Fonctionnement de Git
 
@@ -268,6 +270,10 @@ Note : Une fusion crée un nouveau commit. Pour éviter cela, on peut alors pas
 
 Lorsqu’une fusion est tentée, mais que deux personnes ont modifié une ou plusieurs lignes d’un même fichier, Git crée un conflit. Cela est symbolisé dans le fichier par un formalisme particulier, qui indique les 2 états du fichier à la suite :
 
+
+# début du conflit
+    # premier état du fichier
+# fin du conflit
     # premier état du fichier
 
 
@@ -326,6 +332,3 @@ Exemple d’intégration de Git dans Visual Studio Code
 
 - [Concepts Git sous forme de jeu](https://learngitbranching.js.org/)
 - [Visualizing Git Concepts with D3](https://onlywei.github.io/explain-git-with-d3)
-
-TEEEEEESSSSSSST
-TEEEEESSSSSSSTTT
