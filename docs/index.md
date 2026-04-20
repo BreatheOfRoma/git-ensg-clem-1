@@ -267,15 +267,8 @@ Note : Une fusion crée un nouveau commit. Pour éviter cela, on peut alors pas
 
 Lorsqu’une fusion est tentée, mais que deux personnes ont modifié une ou plusieurs lignes d’un même fichier, Git crée un conflit. Cela est symbolisé dans le fichier par un formalisme particulier, qui indique les 2 états du fichier à la suite :
 
-```bash
-# début du conflit
-<<<<<<< HEAD
     # premier état du fichier
-=======
-    # second état
->>>>>>> nom_branche
-# fin du conflit
-```
+
 
 Il faut donc faire un choix pour conserver seulement la partie 1 (`HEAD` est la position actuelle), la partie 2 (la nouvelle branche), ou les deux. Puis, supprimer le formalisme (`<<<<<<<`, `=======` et `>>>>>>>`). Et enfin, continuez la fusion en cours (`merge`, `rebase` ou autre).
 
