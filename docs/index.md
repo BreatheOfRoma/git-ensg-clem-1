@@ -329,3 +329,5 @@ Exemple d’intégration de Git dans Visual Studio Code
 
 TEEEEEESSSSSSST
 TEEEEESSSSSSSTTT
+
+Test branch lck-scham!
